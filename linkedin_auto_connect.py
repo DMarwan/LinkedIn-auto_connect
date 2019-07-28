@@ -61,4 +61,5 @@ def auto_connector(mail, password, job):
             next_page = browser.find_element_by_xpath('//button[@class="artdeco-pagination__button artdeco-pagination__button--next artdeco-button artdeco-button--muted artdeco-button--icon-right artdeco-button--1 artdeco-button--tertiary ember-view"]')
         except:
             print(f'Job finished. {i} invitations sent.')
+            break
             
